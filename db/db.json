@@ -1,0 +1,195 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "firstName": "Roxxuls",
+        "lastName": "Kaard",
+        "email": "admin@admin.com",
+        "role": "admin",
+        "password": "admin"
+      },
+      {
+        "id": 2,
+        "firstName": "Jennings",
+        "lastName": "Malone",
+        "email": "jenningsmalone@terrago.com",
+        "role": "admin",
+        "password": "admin"
+      },
+      {
+        "id": 3,
+        "firstName": "Bridges",
+        "lastName": "Daniels",
+        "email": "bridgesdaniels@terrago.com",
+        "role": "admin",
+        "password": "admin"
+      },
+      {
+        "id": 5,
+        "firstName": "test",
+        "lastName": "Forbes",
+        "email": "latoyaforbes@terrago.com",
+        "role": "admin",
+        "password": "admin"
+      },
+      {
+        "id": 6,
+        "firstName": "Ballard",
+        "lastName": "Alford",
+        "email": "ballardalford@terrago.com",
+        "role": "admin",
+        "password": "admin"
+      },
+      {
+        "id": 7,
+        "firstName": "Lessie",
+        "lastName": "Bray",
+        "email": "lessiebray@terrago.com",
+        "role": "admin",
+        "password": "admin"
+      },
+      {
+        "id": 8,
+        "firstName": "Torres",
+        "lastName": "Strong",
+        "email": "torresstrong@terrago.com",
+        "role": "admin",
+        "password": "admin"
+      },
+      {
+        "id": 9,
+        "firstName": "Ward",
+        "lastName": "Mosley",
+        "email": "wardmosley@terrago.com",
+        "role": "admin",
+        "password": "admin"
+      },
+      {
+        "id": 10,
+        "firstName": "Pollard",
+        "lastName": "Hester",
+        "email": "pollardhester@terrago.com",
+        "role": "admin",
+        "password": "admin"
+      },
+      {
+        "id": 11,
+        "firstName": "Carolyn",
+        "lastName": "Velasquez",
+        "email": "carolynvelasquez@terrago.com",
+        "role": "admin",
+        "password": "admin"
+      },
+      {
+        "id": 12,
+        "firstName": "Lana",
+        "lastName": "Swanson",
+        "email": "lanaswanson@terrago.com",
+        "role": "admin",
+        "password": "admin"
+      },
+      {
+        "id": 13,
+        "firstName": "Deloris",
+        "lastName": "Sweet",
+        "email": "delorissweet@terrago.com",
+        "role": "admin",
+        "password": "admin"
+      },
+      {
+        "id": 14,
+        "firstName": "Thompson",
+        "lastName": "Watts",
+        "email": "thompsonwatts@terrago.com",
+        "role": "admin",
+        "password": "admin"
+      },
+      {
+        "id": 15,
+        "firstName": "Fleming",
+        "lastName": "Weeks",
+        "email": "flemingweeks@terrago.com",
+        "role": "admin",
+        "password": "admin"
+      },
+      {
+        "id": 16,
+        "firstName": "Althea",
+        "lastName": "Carpenter",
+        "email": "altheacarpenter@terrago.com",
+        "role": "admin",
+        "password": "admin"
+      },
+      {
+        "id": 17,
+        "firstName": "Essie",
+        "lastName": "Stone",
+        "email": "essiestone@terrago.com",
+        "role": "admin",
+        "password": "admin"
+      },
+      {
+        "id": 18,
+        "firstName": "Dawn",
+        "lastName": "Soto",
+        "email": "dawnsoto@terrago.com",
+        "role": "admin",
+        "password": "admin"
+      },
+      {
+        "id": 19,
+        "firstName": "Swanson",
+        "lastName": "Everett",
+        "email": "swansoneverett@terrago.com",
+        "role": "admin",
+        "password": "admin"
+      },
+      {
+        "id": 20,
+        "firstName": "Maryann",
+        "lastName": "Garcia",
+        "email": "maryanngarcia@terrago.com",
+        "role": "admin",
+        "password": "admin"
+      }
+    ],
+    "roles": [
+      {
+        "id": 1,
+        "name": "admin",
+        "permissions": [
+          "view_users",
+          "edit_users",
+          "view_products",
+          "edit_products",
+          "view_roles",
+          "edit_products"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "editor",
+        "permissions": [
+          "view_products",
+          "edit_products"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "viewer",
+        "permissions": [
+          "view_users",
+          "view_products",
+          "view_roles"
+        ]
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "name": "Lorem",
+        "description": "Lorem Ipsum",
+        "image": "product1.jpeg"
+      }
+    ]
+  }
