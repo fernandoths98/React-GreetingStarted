@@ -27,7 +27,7 @@ class Register extends Component {
         // }
         await axios.post('register', {
             first_name: this.first_name,
-            last_name: this.first_name,
+            last_name: this.last_name,
             email: this.email,
             password: this.password,
             password_confirm: this.password_confrim,

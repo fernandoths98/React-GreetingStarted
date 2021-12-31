@@ -13,7 +13,7 @@ const Login = () => {
 
         await axios.post('login',  {
             email,
-            password
+            password,
         });
 
     // const handleSubmit = async (e: SyntheticEvent) => {
@@ -40,7 +40,7 @@ const Login = () => {
     //     })
     // }
 
-    // setRedirect(true);   
+        setRedirect(true);   
     }
         if (redirect) {
         return <Redirect to={'/'}/>
@@ -50,7 +50,7 @@ const Login = () => {
     return(
         
         <main className="form-signin">
-            <form onSubmit={Login}>
+            <form onSubmit={submit}>
                     <h1 className="h3 mb-3 fw-normal ">Please Sign In</h1>
                     
                     <input type="email" className="form-control" placeholder="Email" required 

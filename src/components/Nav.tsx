@@ -10,13 +10,13 @@ const Nav = () => {
   useEffect(() => {
     (
       async () => {
-        const {data} = await axios.get('');
+        const {data} = await axios.get('user');
         setUser(new User(
           data.id,
-          data.firstName,
-          data.lastName,
+          data.first_name,
+          data.last_name,
           data.email,
-          data.role,
+          data.role
         ));
         // fetch('http://localhost:3300/users', {
         //     method: 'GET'
@@ -50,10 +50,10 @@ const Nav = () => {
         );
     }
 
-    const mapStateToProps = (state: {user: User}) => {
-      return{
-          user: state.user
-      }
-    }
+    // const mapStateToProps = (state: {user: User}) => {
+    //   return{
+    //       user: state.user
+    //   }
+    // }
 
 export default Nav;

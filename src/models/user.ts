@@ -2,8 +2,8 @@ import { Role } from './role';
 export class User {
     constructor (
     public id = 0,
-    public firstName = '',
-    public lastName  = '',
+    public first_name = '',
+    public last_name  = '',
     public email = '',
     public role: Role = new Role()
     
@@ -11,7 +11,7 @@ export class User {
     }
 
     get name() {
-        return this.firstName + ' ' + this.lastName;
+        return this.first_name + ' ' + this.last_name;
     }
 
     

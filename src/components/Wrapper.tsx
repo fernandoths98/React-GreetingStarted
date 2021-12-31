@@ -8,18 +8,20 @@ const Wrapper = (props: any) => {
 
     const [redirect, setRedirect] = useState(false)
 
-    
-
     useEffect(() => {
         (
           async () => {
             
             try {
-                const {data} = await axios.get('users');
-            //     fetch('http://localhost:3300/users', {
+                const {data} = await axios.get('users', {withCredentials: true
+                   
+                    })
+                
+            //     fetch('http://127.0.0.1:3300/api/users', {
             //     method: 'GET'
                 
             // }).then((res) => {return res.json()})
+            // .then((res) => console.log(res))
             } catch (e) {
                 setRedirect(true)
             }
